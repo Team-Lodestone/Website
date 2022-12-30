@@ -1,9 +1,9 @@
-import styles from './new-component.module.scss';
+import styles from "./new-component.module.scss";
 
 export interface NewComponentProps {
-    className?: string;
+  className?: string;
 }
 
 export const NewComponent = ({ className }: NewComponentProps) => {
-    return <div className={`${styles.root} ${className}`}>NewComponent</div>;
+  return <div className={`${styles.root} ${className}`}>NewComponent</div>;
 };

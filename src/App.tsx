@@ -1,5 +1,5 @@
-import { BrowserRouter as Router, Route } from 'react-router-dom'
-import Home from './views/Home'
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Home from "./views/Home";
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
         <Route component={Home} exact path="/" />
       </div>
     </Router>
-  )
+  );
 }
 
-export default App
+export default App;

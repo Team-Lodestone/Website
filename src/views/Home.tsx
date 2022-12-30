@@ -1,14 +1,12 @@
-import { Helmet } from 'react-helmet'
-import appStyles from '../App.module.scss'
-import styles from './Home.module.scss'
+import { Helmet } from "react-helmet";
+import appStyles from "../App.module.scss";
+import styles from "./Home.module.scss";
 
 function Home() {
   return (
     <div className={styles.container}>
       <Helmet>
-        <title>
-          Minecraft Manipulator - Edit & Convert Minecraft Worlds For Free!
-        </title>
+        <title>Minecraft Manipulator - Edit & Convert Minecraft Worlds For Free!</title>
         <meta
           name="description"
           content="Minecraft Manipulator offers a free and open-source solution that allows the user to edit and convert Minecraft worlds on all platforms, including consoles."
@@ -35,16 +33,8 @@ function Home() {
               <br></br>
             </h1>
           </div>
-          <div
-            data-thq="thq-navbar-nav"
-            data-role="Nav"
-            className={styles["desktop-menu"]}
-          >
-            <nav
-              data-thq="thq-navbar-nav-links"
-              data-role="Nav"
-              className={styles.nav}
-            >
+          <div data-thq="thq-navbar-nav" data-role="Nav" className={styles["desktop-menu"]}>
+            <nav data-thq="thq-navbar-nav-links" data-role="Nav" className={styles.nav}>
               <span className={styles.text003}>Home</span>
               <span className={styles.text004}>Documentation</span>
               <span className={styles.text005}>Guides</span>
@@ -62,11 +52,7 @@ function Home() {
             </svg>
           </div>
           <div data-thq="thq-mobile-menu" className={styles["mobile-menu"]}>
-            <div
-              data-thq="thq-mobile-menu-nav"
-              data-role="Nav"
-              className={styles.nav1}
-            >
+            <div data-thq="thq-mobile-menu-nav" data-role="Nav" className={styles.nav1}>
               <div className={styles.container03}>
                 <img
                   alt="image"
@@ -79,11 +65,7 @@ function Home() {
                   </svg>
                 </div>
               </div>
-              <nav
-                data-thq="thq-mobile-menu-nav-links"
-                data-role="Nav"
-                className={styles.nav2}
-              >
+              <nav data-thq="thq-mobile-menu-nav-links" data-role="Nav" className={styles.nav2}>
                 <span className={styles.text008}>About</span>
                 <span className={styles.text009}>Features</span>
                 <span className={styles.text010}>Pricing</span>
@@ -113,21 +95,21 @@ function Home() {
           <span>Reliably </span>
           <span className={styles.text016}>Convert</span>
           <span>
-            {' '}
+            {" "}
             And
             <span
               dangerouslySetInnerHTML={{
-                __html: ' ',
+                __html: " ",
               }}
             />
           </span>
           <span className={styles.text018}>Edit</span>
           <span>
-            {' '}
+            {" "}
             Your
             <span
               dangerouslySetInnerHTML={{
-                __html: ' ',
+                __html: " ",
               }}
             />
           </span>
@@ -159,7 +141,7 @@ function Home() {
              With tons
             <span
               dangerouslySetInnerHTML={{
-                __html: ' ',
+                __html: " ",
               }}
             />
           </span>
@@ -171,7 +153,7 @@ function Home() {
             Minecraft Manipulator is
             <span
               dangerouslySetInnerHTML={{
-                __html: ' ',
+                __html: " ",
               }}
             />
           </span>
@@ -183,23 +165,18 @@ function Home() {
         <div className={styles.container06}>
           <div className={styles.container07}>
             <div className={styles.container08}>
-              <img
-                alt="image"
-                src="/playground_assets/nbt-editor.png"
-                className={styles.image02}
-              />
+              <img alt="image" src="/playground_assets/nbt-editor.png" className={styles.image02} />
               <span className={styles.text045}>
                 <span className={styles.text046}>NBT Editor</span>
                 <br className={styles.text047}></br>
                 <span className={styles.text048}>
-                  Edit the saved data of your world using the most powerful NBT
-                  editor around, allowing you to unlock the full potential of
-                  your Minecraft worlds.
+                  Edit the saved data of your world using the most powerful NBT editor around,
+                  allowing you to unlock the full potential of your Minecraft worlds.
                 </span>
                 <span>
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: ' ',
+                      __html: " ",
                     }}
                   />
                 </span>
@@ -216,8 +193,8 @@ function Home() {
                 <span className={styles.text052}>World Converter</span>
                 <br className={styles.text053}></br>
                 <span className={styles.text054}>
-                  Convert your Minecraft worlds between different editions and
-                  versions to play on another supported device.
+                  Convert your Minecraft worlds between different editions and versions to play on
+                  another supported device.
                 </span>
                 <br></br>
               </span>
@@ -231,15 +208,12 @@ function Home() {
                 className={styles.image04}
               />
               <span className={styles.text056}>
-                <span className={styles.text057}>
-                  OTA &amp; Automatic Updates
-                </span>
+                <span className={styles.text057}>OTA &amp; Automatic Updates</span>
                 <br></br>
                 <span className={styles.text059}>
-                  As Minecraft updates, the Minecraft Manipulator will be
-                  dynamically updated. When they&apos;re ready, the latest
-                  changes will automatically be downloaded when you open the
-                  app.
+                  As Minecraft updates, the Minecraft Manipulator will be dynamically updated. When
+                  they&apos;re ready, the latest changes will automatically be downloaded when you
+                  open the app.
                 </span>
                 <br></br>
               </span>
@@ -251,14 +225,11 @@ function Home() {
                 className={styles.image05}
               />
               <span className={styles.text061}>
-                <span className={styles.text062}>
-                  Extension / Plug-In Support
-                </span>
+                <span className={styles.text062}>Extension / Plug-In Support</span>
                 <br></br>
                 <span className={styles.text064}>
-                  Extend the capabilities and the features of the Minecraft
-                  Manipulator with both official and community-built extensions
-                  and plugins.
+                  Extend the capabilities and the features of the Minecraft Manipulator with both
+                  official and community-built extensions and plugins.
                 </span>
                 <br></br>
               </span>
@@ -266,18 +237,13 @@ function Home() {
           </div>
           <div className={styles.container13}>
             <div className={styles.container14}>
-              <img
-                alt="image"
-                src="/playground_assets/grf-editor.png"
-                className={styles.image06}
-              />
+              <img alt="image" src="/playground_assets/grf-editor.png" className={styles.image06} />
               <span className={styles.text066}>
                 <span className={styles.text067}>GRF Editor</span>
                 <br className={styles.text068}></br>
                 <span className={styles.text069}>
-                  Edit GRF files in seconds with the mods power GRF editor.
-                  Allowing you to //Add something here UtterEvergreen1 or
-                  someone from the team.
+                  Edit GRF files in seconds with the mods power GRF editor. Allowing you to //Add
+                  something here UtterEvergreen1 or someone from the team.
                 </span>
                 <br></br>
               </span>
@@ -295,14 +261,14 @@ function Home() {
                   The Minecraft Manipulator is
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: ' ',
+                      __html: " ",
                     }}
                   />
                 </span>
                 <br className={styles.text075}></br>
                 <span className={styles.text076}>
-                  open-sourced, allowing others to learn from and build upon it,
-                  the way a real tool should be.
+                  open-sourced, allowing others to learn from and build upon it, the way a real tool
+                  should be.
                 </span>
                 <br></br>
               </span>
@@ -319,16 +285,16 @@ function Home() {
                 <span className={styles.text079}>
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: ' ',
+                      __html: " ",
                     }}
                   />
                 </span>
                 <span className={styles.text080}>Accessibility</span>
                 <br className={styles.text081}></br>
                 <span className={styles.text082}>
-                  There is importance and value in a clean and user-friendly
-                  interface. Keeping things simple yet elegant allows even
-                  beginners to take advantage of advanced features.
+                  There is importance and value in a clean and user-friendly interface. Keeping
+                  things simple yet elegant allows even beginners to take advantage of advanced
+                  features.
                 </span>
                 <br></br>
               </span>
@@ -343,15 +309,14 @@ function Home() {
                 <span className={styles.text085}>Power users, welcome.</span>
                 <br></br>
                 <span className={styles.text087}>
-                  The tool has been designed from the ground up with community
-                  contributions and compatibility in mind. Bringing several
-                  features that have not been seen in any other all-in-one tool
-                  before.
+                  The tool has been designed from the ground up with community contributions and
+                  compatibility in mind. Bringing several features that have not been seen in any
+                  other all-in-one tool before.
                 </span>
                 <span>
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: ' ',
+                      __html: " ",
                     }}
                   />
                 </span>
@@ -366,71 +331,46 @@ function Home() {
         <div className={styles.container20}>
           <div className={styles.container21}>
             <div className={styles.container22}>
-              <img
-                alt="image"
-                src="/playground_assets/xbox.png"
-                className={styles.image10}
-              />
+              <img alt="image" src="/playground_assets/xbox.png" className={styles.image10} />
               <span className={styles.text091}>
                 <span className={styles.text092}>XBOX TU0 - TU75 / 1.13.2</span>
                 <br></br>
-                <span className={styles.text094}>
-                  • Xbox 360 | E | S | Arcade | Pro | Elite
-                </span>
+                <span className={styles.text094}>• Xbox 360 | E | S | Arcade | Pro | Elite</span>
                 <br></br>
                 <br></br>
-                <span className={styles.text097}>
-                  Legacy Edition Next-Generation
-                </span>
+                <span className={styles.text097}>Legacy Edition Next-Generation</span>
                 <br></br>
                 <span className={styles.text099}>• Xbox One | S | X</span>
                 <br></br>
               </span>
             </div>
             <div className={styles.container23}>
-              <img
-                alt="image"
-                src="/playground_assets/ps3.png"
-                className={styles.image11}
-              />
+              <img alt="image" src="/playground_assets/ps3.png" className={styles.image11} />
               <span className={styles.text101}>
-                <span className={styles.text102}>
-                  PlayStation TU0 - TU75 | 1.84 (1.13.2)
-                </span>
+                <span className={styles.text102}>PlayStation TU0 - TU75 | 1.84 (1.13.2)</span>
                 <br></br>
                 <span className={styles.text104}>• </span>
                 <span className={styles.text105}>PlayStation®Vita</span>
                 <br className={styles.text106}></br>
                 <span className={styles.text107}>• </span>
                 <span className={styles.text108}>
-                  PlayStation®3 | Super Slim | Slim | Phat | Tool (DevKit) |
-                  OFW/HFW/CFW/MFW/SFW
+                  PlayStation®3 | Super Slim | Slim | Phat | Tool (DevKit) | OFW/HFW/CFW/MFW/SFW
                 </span>
                 <br></br>
               </span>
             </div>
             <div className={styles.container24}>
-              <img
-                alt="image"
-                src="/playground_assets/wii-u.png"
-                className={styles.image12}
-              />
+              <img alt="image" src="/playground_assets/wii-u.png" className={styles.image12} />
               <span className={styles.text110}>
-                <span className={styles.text111}>
-                  Nintendo TU0 - TU75 / 1.13.2
-                </span>
+                <span className={styles.text111}>Nintendo TU0 - TU75 / 1.13.2</span>
                 <br></br>
                 <span className={styles.text113}>• </span>
                 <span className={styles.text114}>Nintendo WIi U</span>
                 <br className={styles.text115}></br>
                 <span className={styles.text116}>• </span>
-                <span className={styles.text117}>
-                  Nintendo Switch | OLED (Legacy)
-                </span>
+                <span className={styles.text117}>Nintendo Switch | OLED (Legacy)</span>
                 <br className={styles.text118}></br>
-                <span className={styles.text119}>
-                  • New Nintendo 3DS (Separated Edition)
-                </span>
+                <span className={styles.text119}>• New Nintendo 3DS (Separated Edition)</span>
                 <br></br>
               </span>
             </div>
@@ -443,9 +383,7 @@ function Home() {
                 className={styles.image13}
               />
               <span className={styles.text121}>
-                <span className={styles.text122}>
-                  Java Edition Versions: 1.3+
-                </span>
+                <span className={styles.text122}>Java Edition Versions: 1.3+</span>
                 <br></br>
                 <span className={styles.text124}>• </span>
                 <span className={styles.text125}>Windows</span>
@@ -465,9 +403,7 @@ function Home() {
                 className={styles.image14}
               />
               <span className={styles.text133}>
-                <span className={styles.text134}>
-                  Bedrock Edition Versions: 1.0.0+
-                </span>
+                <span className={styles.text134}>Bedrock Edition Versions: 1.0.0+</span>
                 <br></br>
                 <span className={styles.text136}>• iOS | iPadOS</span>
                 <br className={styles.text137}></br>
@@ -488,17 +424,13 @@ function Home() {
                 className={styles.image15}
               />
               <span className={styles.text146}>
-                <span className={styles.text147}>
-                  Next-Generation Bedrock Realms
-                </span>
+                <span className={styles.text147}>Next-Generation Bedrock Realms</span>
                 <br></br>
                 <span className={styles.text149}>• Xbox One | S | X</span>
                 <br className={styles.text150}></br>
                 <span className={styles.text151}>• Xbox Series | S| X</span>
                 <br className={styles.text152}></br>
-                <span className={styles.text153}>
-                  • PlayStation®4 | Slim | Pro
-                </span>
+                <span className={styles.text153}>• PlayStation®4 | Slim | Pro</span>
                 <br className={styles.text154}></br>
                 <span className={styles.text155}>• </span>
                 <span className={styles.text156}>PlayStation®5 | Digital</span>
@@ -547,7 +479,7 @@ function Home() {
                   View the awesome list of people
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: ' ',
+                      __html: " ",
                     }}
                   />
                 </span>
@@ -560,7 +492,7 @@ function Home() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
