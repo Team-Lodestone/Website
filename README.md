@@ -1,3 +1,3 @@
 # Minecraft-Manipulator-React
 
-The website for the Minecraft-Manipularo.
+The website for the Minecraft-Manipulator.
