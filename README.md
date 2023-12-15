@@ -1,3 +1,5 @@
 # Minecraft-Manipulator-Website
+The showcase / promotional website for the Minecraft Manipulator project. 
 
-The website for the Minecraft-Manipulator is in development and should be in its testing stages soon.
+# Development
+The site is still under development!
