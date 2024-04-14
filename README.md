@@ -1,5 +1,5 @@
-# Minecraft-Manipulator-Website
-The showcase / promotional website for the Minecraft Manipulator project. 
+# Project Lodestone Website
+The showcase / promotional website for Project Lodestone. 
 
 # Development
 The site is still under development!
